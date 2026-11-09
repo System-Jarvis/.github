@@ -27,7 +27,7 @@ The system will allow users to:
 | **E.D.I.T.H.** | Intelligence | Research, OSINT, Analysis |
 | **U.L.T.R.O.N.** | Cybersecurity | Defensive Monitoring, Threat Modeling, Authorized Security Testing |
 | **D.U.M.-E.** | Hardware | Diagnostics, Server Maintenance |
-| **U.** | Terminal Management and Accesibility | File Management |
+| **U.** | Terminal Management and Accessibility | File Management |
 
 ### J.A.R.V.I.S. — Central Intelligence
 
@@ -51,11 +51,11 @@ A cybersecurity-focused assistant for defensive analysis and authorized security
 
 A hardware diagnostics and infrastructure-maintenance assistant. Planned capabilities include monitoring hardware health, interpreting telemetry, identifying component failures, and recommending maintenance.
 
-### U. — Automation
+### U. — Terminal Management and Accessibility
 
-A specialized execution and automation assistant. Planned capabilities include running approved workflows, supporting build and deployment operations, and interacting with authorized software or hardware interfaces.
+U. is a specialized AI agent responsible for terminal management and accessibility within the J.A.R.V.I.S. platform.
 
-**Actions with elevated privileges or significant effects require appropriate authorization.**
+Planned capabilities include file management, terminal navigation, file organization, and assisting users with accessible methods of interacting with terminal environments.
 
 ---
 
