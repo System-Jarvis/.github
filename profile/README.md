@@ -1,7 +1,7 @@
 
 # J.A.R.V.I.S. -- Just A Rather Very Intelligent System
 
-**A self-hosted artificial intelligence platform built to incorporate a multi-agent architecture.**
+**A self-hosted artificial intelligence platform.**
 
 ---
 
