@@ -130,59 +130,79 @@ The current technical direction includes:
 | Infrastructure | Self-hosted servers and network equipment |
 | Automation | Permission-controlled tools and workflows |
 
----
-
 ## Project Repositories
 
-The intended organization separates major systems into dedicated repositories.
+The System-Jarvis organization separates major project components into dedicated repositories as development progresses.
+
+### Existing Repositories
 
 | Repository | Purpose |
 |---|---|
-| `.github` | Organization homepage and GitHub community configuration |
-| `jarvis-core` | Core orchestration, runtime, conversations, security, and protocols |
-| `jarvis-agents` | Specialized agents, profiles, configurations, and tests |
-| `jarvis-terminals` | Terminal applications, interfaces, and hardware documentation |
-| `jarvis-infrastructure` | Server architecture, deployment, networking, and monitoring |
-| `jarvis-docs` | Project-wide architecture, decisions, and development guides |
+| `.github` | Organization homepage and community configuration |
+| `Jarvis-Core` | Core project development and foundational documentation |
+| `Jarvis-Terminal` | Terminal-related development and documentation |
 
-**Note:** This table describes the proposed repository organization. Repository availability and implementation status will be updated as the migration progresses.
+### Proposed Future Repositories
 
----
+Additional repositories may be established as the platform evolves.
+
+Potential areas include:
+
+- Specialized agent implementations and configurations
+- Server infrastructure, deployment, and monitoring
+- Shared technical documentation
+- Interface development and integrations
+
+Repository structure and responsibilities will be reviewed as technical requirements become clearer.
 
 ## Development Roadmap
 
-### Phase 0 — Documentation & Repository Foundation
-- [ ] Audit existing project repositories.
-- [ ] Redesign the organization homepage.
-- [ ] Establish repository responsibilities.
-- [ ] Document architectural decisions.
-- [ ] Establish contribution and development standards.
+### Phase 0 — Base Documentation
 
-### Phase 1 — J.A.R.V.I.S. Core
-- [ ] Establish the Rust workspace.
-- [ ] Establish foundational authentication and authorization.
+**Status:** Complete
 
-### Phase 2 — Conversational Agents
-- [ ] Implement direct text conversations.
-- [ ] Create individual agent identities and profiles.
-- [ ] Integrate a model runtime.
-- [ ] Implement conversation session management.
-- [ ] Support switching between agents.
+- [x] Establish the System-Jarvis GitHub organization.
+- [x] Create the initial project repositories.
+- [x] Define the six original J.A.R.V.I.S. agents.
+- [x] Establish the project overview and roadmap.
+- [x] Document the Agent Network.
+- [x] Document existing server hardware and rack infrastructure.
+- [x] Establish development standards and technical decision records.
+- [x] Complete the foundational documentation audit.
 
-### Phase 3 — Intelligence, Memory & Tools
-- [ ] Implement controlled conversation memory.
-- [ ] Define context-sharing permissions.
-- [ ] Introduce authorized tool integrations.
-- [ ] Implement audit logging.
+### Phase 1 — Server Infrastructure Setup
 
-### Phase 4 — Voice & Terminal Integration
-- [ ] Implement speech-to-text support.
-- [ ] Implement text-to-speech support.
-- [ ] Introduce distinct agent voice profiles.
-- [ ] Integrate voice into terminal interfaces.
-- [ ] Support conversational handoffs.
+**Status:** In Progress
 
-Roadmap items will be updated as implementations are completed and verified.
+- [x] Acquire the initial servers.
+- [x] Acquire the APC NetShelter rack cabinet.
+- [x] Install working servers in the cabinet.
+- [x] Power on the primary server.
+- [ ] Complete initial server configuration.
+- [ ] Configure and verify secure remote access.
+- [ ] Establish infrastructure monitoring.
+- [ ] Document verified server configurations.
+- [ ] Validate the hosting environment.
+
+### Future Development Phases
+
+The following phases are preliminary and may evolve as technical decisions are finalized.
+
+**Phase 2 — Core AI Development**
+
+Research and prototype foundational AI capabilities, including model integration and core system services.
+
+**Phase 3 — Agent Network Development**
+
+Implement specialized AI agents, direct conversations, and coordinated multi-agent workflows.
+
+**Phase 4 — Interface Development**
+
+Develop terminal and desktop interfaces with traditional input methods and planned voice interaction.
+
+**Phase 5 — Integration and Expansion**
+
+Explore additional automation, hardware integrations, monitoring capabilities, and advanced interfaces.
 
 ---
 
